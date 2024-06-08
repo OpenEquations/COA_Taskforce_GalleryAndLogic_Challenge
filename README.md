@@ -18,14 +18,14 @@ On screens less than 590px ovalays vanishes!
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/OpenEquations/COA_Taskforce_GalleryAndLogic_Challenge
+   git clone https://github.com/OpenEquations/COA_Taskforce_GalleryAndLogic_Challenge.git
 
 2. You can open _index.html_ in the root directory
 
 ### Challenges 
 
  - Open _challenges/arrayMap.html_
- **Note: _open blowser console for output_.Please, find the JS source code in arrayMap.js**
+ **Note: _open browser console for output_.Please, find the JS source code in arrayMap.js**
 
   - Open _challenges/stringTransform.html_
- **Note: _open blowser console for output_.Please, find the JS source code in stringTransform.js**
+ **Note: _open browser console for output_.Please, find the JS source code in stringTransform.js**
