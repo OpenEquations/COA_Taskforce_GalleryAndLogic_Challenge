@@ -7,7 +7,7 @@ document.addEventListener("click", function(event) {
     // Select the element
     const galleryItem = event.target;
     // Get the attribute values
-    clickedImageSrc = galleryItem.getAttribute("src");
+    clickedImageSrc = galleryItem.getAttribute("src"); 
     clickedImageName = galleryItem.getAttribute("alt");
     clickedImageOrigin = galleryItem.nextElementSibling.querySelector("span").innerText;
 

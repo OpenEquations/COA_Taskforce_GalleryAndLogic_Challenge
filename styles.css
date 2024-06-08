@@ -166,6 +166,6 @@ body{
 /* I used 590px instead of 400 due to the text which deforms */
 @media (max-width:590px){
     .image-title,.image-more{
-        display: none;
+        display: none; 
     }
 }

@@ -4,7 +4,7 @@
 This project is an interactive photo gallery that adapts to different screen sizes and devices. It matches most but not all provided Figma designs and includes hover interactions to display additional details.
 On screens less than 590px ovalays vanishes!
 
--Please, **hover on images** and **_click on them!_ to see preview & thumbnail**
+- Please, **hover on images** and **_click on them!_ to see preview & thumbnail**
 
 ## Features
 - Responsive design
@@ -25,7 +25,7 @@ On screens less than 590px ovalays vanishes!
 ### Challenges 
 
  - Open _challenges/arrayMap.html_
- **Note: _open browser console for output_.Please, find the JS source code in arrayMap.js**
+ **Note: _open browser console for output_. Please, find the JS source code in arrayMap.js**
 
   - Open _challenges/stringTransform.html_
- **Note: _open browser console for output_.Please, find the JS source code in stringTransform.js**
+ **Note: _open browser console for output_. Please, find the JS source code in stringTransform.js**
