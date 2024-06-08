@@ -20,12 +20,12 @@ On screens less than 590px ovalays vanishes!
    ```sh
    git clone https://github.com/OpenEquations/COA_Taskforce_GalleryAndLogic_Challenge.git
 
-2. You can open ```sh index.html in the root directory
+2. You can open ``` index.html ``` in the root directory
 
 ### Challenges 
 
  - Open ``` challenges/arrayMap.html ```
  **Note: _open browser console for output_. Please, find the JS source code in arrayMap.js**
 
-  - Open _challenges/stringTransform.html_
+  - Open _```challenges/stringTransform.html```_
  **Note: _open browser console for output_. Please, find the JS source code in stringTransform.js**
