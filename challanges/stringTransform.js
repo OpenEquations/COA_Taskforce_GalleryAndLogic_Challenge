@@ -28,5 +28,5 @@ function processString(input) {
 // Example usage:
 let string = 'HelloWorldTest!'; // Input string
 //expected output: 33 116 115 101 84 100 108 114 111 87 111 108 108 101 72
-//test on other string to see outpu
+//test on other string to see output
 console.log(processString(string)); // Output the processed string
