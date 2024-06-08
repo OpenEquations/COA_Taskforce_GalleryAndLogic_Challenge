@@ -9,7 +9,7 @@ On screens less than 590px ovalays vanishes!
 ## Features
 - Responsive design
 - Hover interaction to display details
-- Visitor can click on an image to open a preview!
+- Visitor can click on an image to open a preview
 - A priview also has a thumbnail
 - Cross-browser compatibility
 - Clean and well-structured code
@@ -27,5 +27,5 @@ On screens less than 590px ovalays vanishes!
  - Open ``` challenges/arrayMap.html ```
  **Note: _open browser console for output_. Please, find the JS source code in arrayMap.js**
 
-  - Open _```challenges/stringTransform.html```_
+  - Open ```challenges/stringTransform.html```
  **Note: _open browser console for output_. Please, find the JS source code in stringTransform.js**
