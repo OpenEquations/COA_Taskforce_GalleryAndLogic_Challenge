@@ -6,8 +6,6 @@ const previewPane = document.getElementsByClassName("image-preview")[0];
 document.addEventListener("click", function(event) {
     // Select the element
     const galleryItem = event.target;
-    //Get animal origin
-    console.log(clickedImageOrigin);
     // Get the attribute values
     clickedImageSrc = galleryItem.getAttribute("src");
     clickedImageName = galleryItem.getAttribute("alt");
@@ -21,15 +19,18 @@ document.addEventListener("click", function(event) {
     let image = imageWrapper.querySelector("img");
     image.setAttribute("src",clickedImageSrc);
     let thumbNair = imageWrapper.querySelector("div");
+
     let thumbNairImg = thumbNair.querySelector("img");
     let thumbNairTitle = thumbNair.querySelector(".thumbnair-title").querySelector("h4");
     let thumbNairOrigin = thumbNair.querySelector(".thumbnair-title").querySelector("p");
     thumbNairImg.setAttribute("src",clickedImageSrc);
     thumbNairTitle.innerHTML = clickedImageName;
     thumbNairOrigin.innerHTML = clickedImageOrigin;
-
     if (previewPane.contains(event.target)) {
         previewPane.style.display = "none";
     }
-    console.log(thumbNairOrigin);
 });
+
+
+
+
