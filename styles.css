@@ -1,0 +1,172 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+    font-family: 'DINCondensed';
+    src: url('fonts/DINCondensed-Regular.ttf') format('truetype'),
+         url('fonts/DINCondensed-Bold.ttf') format('truetype'); /* Add more font files if needed */
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{ 
+    position: relative;
+    width: 1178px;
+    margin: auto;
+    background-color: black;
+}
+
+.gallery{
+  display: flex;
+  width: 100%;
+  /* border: 1px solid rgb(184, 14, 14);  */
+  height: 100vh;
+     
+}
+
+.gallery-item{
+    border-right: 2px solid rgb(0, 0, 0);
+    width: 25%;
+    flex-grow: 1;
+    overflow: hidden;
+    position: relative;
+    
+}
+
+.gallery-item img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    transition: transform 0.5s ease, filter 0.5s ease;
+    filter: brightness(80%);
+}
+
+
+.gallery-item:hover img {
+    transform: scale(1.1);
+    filter: brightness(70%) grayscale(100%) blur(5px);
+    cursor: pointer;
+}
+
+.image-title{
+    position: absolute;
+    bottom: 28px;
+    z-index: 2;
+    margin-left: 40px;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 38px;
+    font-family: 'DINCondensed', sans-serif;
+    color: #FFFFFF;
+    transition: bottom 0.3s ease, opacity 0.3s ease, visibility 0.3s ease;
+    text-transform: uppercase;
+}
+
+.image-title span{
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 200;
+    transition: transform 0.5s ease, filter 0.5s ease;
+    text-transform: capitalize;
+}
+
+.image-more{
+    position: absolute;
+    color: #00DBFF;
+    bottom: 34px;
+    z-index: 2;
+    margin-left: 30px;
+    /* display: none; */
+    opacity: 0;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    transition: all 0.5s ease, visibility 0.5s ease;
+}
+
+.gallery-item:hover .image-title {
+    bottom: 55px;
+}
+
+.gallery-item:hover .image-more{
+    opacity: 1;
+    /* display: block; */
+}
+
+.image-preview{
+    position: absolute;
+    z-index: 3;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.877);
+    display: none;
+    align-items: center;
+}
+
+.image-wrapper{
+    height: 90%;
+    width: 40%;
+    /* border: 3px solid red; */
+    margin: auto;
+    position: relative;
+
+}
+
+.image-wrapper img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.thumbnair{
+    width: 200px;
+    height: 50px;
+    /* border: 2px solid green; */
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.863);
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+}
+
+
+
+.thumbnair img{
+    object-fit: cover;
+    width: 30%;
+}
+
+.thumbnair div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    color: white;
+}
+
+.thumbnair-title{
+    display: flex;
+    flex-direction: column;
+}
+
+.thumbnair-title h4{
+    font-family: 'DINCondensed', sans-serif;
+}
+.thumbnair-title p{
+    font-family: "Poppins", sans-serif;
+    font-size: small;
+}
+
+@media (max-width:590px){
+    .image-title,.image-more{
+        display: none;
+    }
+}
