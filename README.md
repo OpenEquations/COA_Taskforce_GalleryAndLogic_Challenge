@@ -1,7 +1,10 @@
 # COA_Taskforce_GalleryAndLogic_Challenge
 
 ## Description
-This project is an interactive photo gallery that adapts to different screen sizes and devices. It matches the provided Figma designs and includes hover interactions to display additional details.
+This project is an interactive photo gallery that adapts to different screen sizes and devices. It matches most but not all provided Figma designs and includes hover interactions to display additional details.
+On screens less than 590px ovalays vanishes!
+
+-Please, ##hover on emages ## and ## _click on them!_ to see preview & thumbnair ##
 
 ## Features
 - Responsive design
@@ -21,8 +24,8 @@ This project is an interactive photo gallery that adapts to different screen siz
 
 ### Challenges 
 
- - Open challenges/arrayMap.html
- **Note: _open console, you will outputs_ find JS codes in arrayMap.js**
+ - Open _challenges/arrayMap.html_
+ **Note: _open blowser console for outputs_.Please, find JS source codes in arrayMap.js**
 
-  - Open challenges/stringTransform.html
- **Note: _open console, you will outputs_ find JS codes in stringTransform.js**
+  - Open _challenges/stringTransform.html_
+ **Note: _open blowser console for outputs_.Please, find JS source codes in stringTransform.js**

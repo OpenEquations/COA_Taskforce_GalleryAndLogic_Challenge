@@ -33,6 +33,6 @@ function findContiguousSubarray(arr, target) {
 
 // Example usage:
 let arr = [1, 2, 3, 4, 5]; // Input array
-let target = 16; // Target sum value
+let target = 20; // Target sum value
 
 console.log(findContiguousSubarray(arr, target)); // Output the contiguous subarray
